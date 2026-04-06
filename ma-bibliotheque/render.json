@@ -1,0 +1,20 @@
+{
+  "service": {
+    "name": "ma-bibliotheque-backend",
+    "source": {
+      "type": "git",
+      "repo": "https://github.com/aymen12-9/ma-bibliotheque",
+      "branch": "main"
+    },
+    "build": {
+      "env": "node",
+      "context": "./src",
+      "command": "npm install",
+      "rootDir": "./src"
+    },
+    "start": {
+      "command": "npm start",
+      "port": 3001
+    }
+  }
+}

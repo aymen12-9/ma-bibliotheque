@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "isbn": "9782070612758",
+      "title": "Le Petit Prince",
+      "authors": [
+        "Antoine de Saint-Exupéry"
+      ],
+      "coverUrl": "https://covers.openlibrary.org/b/id/8238043-L.jpg",
+      "description": "Le Petit Prince est une œuvre de langue française, la plus célèbre d'Antoine de Saint-Exupéry.",
+      "pageCount": 96,
+      "publishYear": 1943,
+      "publisher": "Gallimard",
+      "language": "fr",
+      "genres": [
+        "Littérature",
+        "Philosophie",
+        "Classique"
+      ],
+      "status": "read",
+      "rating": 5,
+      "comments": "Un chef-d'œuvre intemporel !",
+      "quotes": [
+        "On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux."
+      ],
+      "dateRead": "2024-01-15",
+      "addedDate": "2024-01-10"
+    }
+  ],
+  "wishlist": []
+}

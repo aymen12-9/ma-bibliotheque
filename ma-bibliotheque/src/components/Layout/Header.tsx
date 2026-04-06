@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { Menu } from 'lucide-react';
+import { Menu, Library } from 'lucide-react';
 import { LanguageSwitcher } from '../Common/LanguageSwitcher';
 
 interface HeaderProps {
@@ -19,7 +19,7 @@ export const Header: FC<HeaderProps> = ({ onMenuClick }) => {
           </button>
 
           <div className="flex items-center gap-3">
-            <img src="/logo.svg" alt="Ma Bibliothèque" className="h-10 w-10 rounded-2xl bg-slate-100 p-2 shadow-sm" />
+            <Library className="h-10 w-10 p-2 rounded-2xl bg-primary-100 text-primary-600 shadow-sm" />
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Ma Bibliothèque</p>
               <p className="text-base font-bold text-slate-900">Gestion de livres</p>
