@@ -8,9 +8,9 @@
     },
     "build": {
       "env": "node",
-      "context": "./",
+      "context": "./src",
       "command": "npm install",
-      "rootDir": "./"
+      "rootDir": "./src"
     },
     "start": {
       "command": "npm start",
